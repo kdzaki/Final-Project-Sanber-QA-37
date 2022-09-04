@@ -1,0 +1,183 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+8,"Search - Employee Name","Employee Information (Search)",5,"Kholifian Dzaki Rachmanhafizh",48000,Passed,"2022-09-04 11:17:31","1. Isi kolom Employee Name
+2. Pilih nama karyawan yang dicari
+3. Tekan tombol 'Search'
+","1. Nama karyawan
+2. 
+3. 
+","1. 1. Kolom Employee Name dapat diisi
+2. Muncul dropdown berdasarkan nama yang diisi
+2. 
+3. Muncul daftar karyawan sesuai data yang diinput
+","1. Passed
+2. Passed
+3. Passed
+",,Medium,Major,"Not automated",Functional,,"1. 
+2. 
+3. ",
+9,"Search - Employee ID","Employee Information (Search)",5,"Kholifian Dzaki Rachmanhafizh",37000,Passed,"2022-09-04 11:18:09","1. Isi kolom Employee ID
+2. Tekan tombol 'Search'
+","1. ID karyawan
+2. 
+","1. 1. Kolom Employee ID dapat diisi
+2. Muncul dropdown berdasarkan ID yang diisi
+2. Muncul daftar karyawan sesuai data yang diinput
+","1. Passed
+2. Passed
+",,Medium,Major,"To be automated",Functional,,"1. Tidak ada dropdown
+2. ",
+10,"Search - Employment Status","Employee Information (Search)",5,"Kholifian Dzaki Rachmanhafizh",30000,Passed,"2022-09-04 11:18:41","1. Tekan tombol panah kebawah pada kolom Employment Status
+2. Pilih Employment Status
+3. Tekan tombol 'Search'
+","1. 
+2. 
+3. 
+","1. 1. Panah kebawah pada kolom Employment Status dapat tekan
+2. Muncul dropdown pilihan yang tersedia
+2. 
+3. Muncul daftar karyawan sesuai Employment Status yang dipilih
+","1. Passed
+2. Passed
+3. Passed
+",,Medium,Major,"Not automated",Functional,,"1. 
+2. 
+3. ",
+11,"Search - Include","Employee Information (Search)",5,"Kholifian Dzaki Rachmanhafizh",52000,Passed,"2022-09-04 11:19:34","1. Tekan tombol panah kebawah pada kolom Include
+2. Pilih opsi yang tersedia pada kolom Include
+3. Tekan tombol 'Search'
+","1. 
+2. 
+3. 
+","1. 1. Panah kebawah pada kolom Include dapat tekan
+2. Muncul dropdown pilihan yang tersedia
+2. 
+3. Muncul daftar karyawan sesuai opsi Include yang dipilih
+","1. Passed
+2. Passed
+3. Passed
+",,Medium,Major,"Not automated",Functional,,"1. 
+2. 
+3. ",
+12,"Search - Include (No Records Found)","Employee Information (Search)",5,"Kholifian Dzaki Rachmanhafizh",27000,Passed,"2022-09-04 11:20:03","1. Tekan tombol panah kebawah pada kolom Include
+2. Pilih opsi yang tersedia pada kolom Include
+3. Tekan tombol 'Search'
+","1. 
+2. 
+3. 
+","1. 1. Panah kebawah pada kolom Include dapat tekan
+2. Muncul dropdown pilihan yang tersedia
+2. 
+3. 1. Muncul pop-up bertuliskan 'No Records Found'
+2. Jumlah karyawan menunjukkan angka 0
+","1. Passed
+2. Passed
+3. Passed
+",,Medium,Major,"Not automated",Functional,,"1. 
+2. 
+3. ",
+13,"Search - Supervisor Name","Employee Information (Search)",5,"Kholifian Dzaki Rachmanhafizh",24000,Passed,"2022-09-04 11:20:28","1. Isi kolom Supervisor Name
+2. Pilih nama supervisor yang dicari
+3. Tekan tombol 'Search'
+","1. Nama supervisor
+2. 
+3. 
+","1. 1. Kolom Supervisor Name dapat diisi
+2. Muncul dropdown berdasarkan nama yang diisi
+2. 
+3. Muncul daftar karyawan sesuai data yang diinput
+","1. Passed
+2. Passed
+3. Passed
+",,Medium,Major,"Not automated",Functional,,"1. 
+2. 
+3. ",
+14,"Search - Job Title","Employee Information (Search)",5,"Kholifian Dzaki Rachmanhafizh",23000,Passed,"2022-09-04 11:20:53","1. Tekan tombol panah kebawah pada kolom Job Title
+2. Pilih Job Title
+3. Tekan tombol 'Search'
+","1. 
+2. 
+3. 
+","1. 1. Panah kebawah pada kolom Job Title dapat ditekan
+2. Muncul dropdown pilihan yang tersedia
+2. 
+3. Muncul daftar karyawan sesuai Job Title yang dipilih
+","1. Passed
+2. Passed
+3. Passed
+",,Medium,Major,"Not automated",Functional,,"1. 
+2. 
+3. ",
+15,"Search - Sub Unit","Employee Information (Search)",5,"Kholifian Dzaki Rachmanhafizh",27000,Passed,"2022-09-04 11:21:21","1. Tekan tombol panah kebawah pada kolom Sub Unit
+2. Pilih Sub Unit
+3. Tekan tombol 'Search'
+","1. 
+2. 
+3. 
+","1. 1. Panah kebawah pada kolom Sub Unit dapat ditekan
+2. Muncul dropdown pilihan yang tersedia
+2. 
+3. Muncul daftar karyawan sesuai Sub Unit yang dipilih
+","1. Passed
+3. Passed
+",,Medium,Major,"Not automated",Functional,,"1. 
+3. ",
+16,"Add Employee","Employee List",6,"Kholifian Dzaki Rachmanhafizh",59000,Passed,"2022-09-04 11:22:21","1. Tekan tombol ""+ Add""
+2. Isi data karyawan baru
+3. Tekan tombol 'Save'
+","1. 
+2. Employee Full Name, Employee ID
+3. 
+","1. 1. Tombol ""+ Add"" dapat ditekan
+2. Website membuka halaman Add Employee
+2. Kolom yang tersedia dapat diisi
+3. 1. Muncul pop-up bertuliskan 'Successfully Saved'
+2. Data karyawan baru ditambahkan pada sistem
+","1. Passed
+2. Passed
+3. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. ",
+17,"Add Employee - ID already used","Employee List",6,"Kholifian Dzaki Rachmanhafizh",43000,Passed,"2022-09-04 11:23:06","1. Tekan tombol ""+ Add""
+2. Isi data karyawan baru
+3. Tekan tombol 'Save'
+","1. 
+2. Employee Full Name, Employee ID yang sudah digunakan
+3. 
+","1. 1. Tombol ""+ Add"" dapat ditekan
+2. Website membuka halaman Add Employee
+2. Kolom yang tersedia dapat diisi
+3. 1. Muncul tulisan 'Employee Id already exists'
+2. Tombol 'Save' tidak bisa ditekan
+","1. Passed
+2. Passed
+3. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. ",
+18,"Edit Employee Data","Employee List",6,"Kholifian Dzaki Rachmanhafizh",38000,Passed,"2022-09-04 11:23:45","1. Tekan tombol bergambar pena pada kolom Action
+2. Ubah data karyawan yang hendak dimodifikasi
+3. Tekan tombol Save
+","1. 
+2. 
+3. 
+","1. Website membuka halaman Personal Details karyawan
+2. Data karyawan dapat dimodifikasi
+3. Muncul pop-up bertuliskan 'Successfully Updated'
+","1. Passed
+2. Passed
+3. Passed
+",,Medium,Normal,"To be automated",Functional,,"1. 
+2. 
+3. ",
+19,"Delete Employee Data","Employee List",6,"Kholifian Dzaki Rachmanhafizh",24000,Passed,"2022-09-04 11:24:11","1. Tekan tombol bergambar Trash Can pada kolom Action
+2. Tekan tombol 'Yes, Delete'
+","1. 
+2. 
+","1. Muncul pop-up 'Are You sure? The selected record will be permanently deleted. Are you sure you want to continue?'
+2. 1. Muncul pop-up 'Successfully Deleted'
+2. Data karyawan terhapus dari database server
+","1. Passed
+2. Passed
+",,Medium,Normal,"Not automated",Functional,,"1. 
+2. ",
